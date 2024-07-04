@@ -15,6 +15,10 @@ docker buildx build --platform linux/amd64 -f $DOCKERFILE -t $DOCKER_IMAGE_NAME 
 echo "Removing local Docker image..."
 docker rmi $DOCKER_IMAGE_NAME
 
+# Login Into Azure
+echo "Logining Into Azure..."
+az login
+
 # Create resource group if it doesn't exist
 echo "Creating resource group..."
 az group create --name $RESOURCE_GROUP --location $LOCATION
