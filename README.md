@@ -10,7 +10,9 @@ git clone https://github.com/Ch-Saqib/Bicep-Testing
 
 * 3.Open Bash Ternimal
 
-* 4.write ls
+* 4.Don't Forget to Open Docker Desktop
 
-* 5.write bash deploy.sh
+* 5.write ls
+
+* 6.write bash deploy.sh
 
