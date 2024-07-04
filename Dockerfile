@@ -22,4 +22,4 @@ RUN poetry config virtualenvs.create false
 RUN poetry install --no-interaction --no-root
 
 # Run the app. CMD can be overridden when starting the container
-CMD ["poetry", "run", "uvicorn", "app.main:app", "--host", "0.0.0.0","--port", "8009","--reload"]
+CMD ["poetry", "run", "uvicorn", "code.main:app", "--host", "0.0.0.0","--port", "8009","--reload"]
