@@ -10,7 +10,7 @@ git clone https://github.com/Ch-Saqib/Bicep-Testing
 
 * 3.Open Bash Ternimal
 
-* 4.Copy deploy.sh file path
+* 4.write ls
 
-* 5.bash paste here path
+* 5.write bash deploy.sh
 
